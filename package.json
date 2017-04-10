@@ -1,0 +1,16 @@
+{
+  "name": "simon",
+  "version": "1.0.0",
+  "description": "2 Player Simon Game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "David Wolgemuth <davidjwolgemuth@wgmail.com> (https://david-wolgemuth.github.io)",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "express": "^4.15.2"
+  }
+}
