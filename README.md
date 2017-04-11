@@ -13,7 +13,7 @@
     git push origin master
     ```
 1. Run `npm install`
-1. Run `npm start`
+1. Run `npm start` (If you are on windows, use `node server.js` and open localhost:3000 in browser)
 
 ## Rules
 
