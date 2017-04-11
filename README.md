@@ -2,7 +2,16 @@
 
 ## Setup
 
-1. Fork then clone the repo
+1. Clone the repo
+    ```
+    git@github.com:mean-april-2017/simon-david.git
+    ```
+1. Create New Repo in Org and Set Remote
+    ```
+    cd simon-david
+    git remote set-url origin git@github.com:mean-april-2017/simon-your-name
+    git push origin master
+    ```
 1. Run `npm install`
 1. Run `npm start`
 
