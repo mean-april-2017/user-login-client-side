@@ -8,25 +8,14 @@
 
 ## Rules
 
-<style>
-td {
-    outline:1px solid black;
-}
-div.hist {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-}
-</style>
-
 <table>
     <tr>
-        <td style="background:red">Red</td>
-        <td style="background:yellow">Yellow</td>
+        <td >Red</td>
+        <td >Yellow</td>
     </tr>
     <tr>
-        <td style="background:blue">Blue</td>
-        <td style="background:green">Green</td>
+        <td >Blue</td>
+        <td >Green</td>
     </tr>
 </table>
 
@@ -61,7 +50,12 @@ ex:
  - when player loses
     - show option to reset game
     - show the game history
-        - <div class="hist" style="background: red">&nbsp;</div><div class="hist" style="background: green">&nbsp;</div><div class="hist" style="background: blue">&nbsp;</div><div class="hist" style="background: red">&nbsp;</div><div class="hist" style="background: yellow">&nbsp;</div><div class="hist" style="background: blue">&nbsp;</div>
+        - RED
+        - YELLOW
+        - BLUE
+        - BLUE
+        - RED
+        - GREEN
  - keep track of wins/losses for player 1 / player 2
  - show highscores
 
