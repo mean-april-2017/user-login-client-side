@@ -4,7 +4,7 @@
 
 1. Clone the repo
     ```
-    git@github.com:mean-april-2017/simon-david.git
+    git clone https://github.com/mean-april-2017/simon-david.git
     ```
 1. Create New Repo in Org and Set Remote
     ```
