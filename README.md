@@ -9,7 +9,7 @@
 1. Create New Repo in Org and Set Remote
     ```
     cd simon-david
-    git remote set-url origin git@github.com:mean-april-2017/simon-your-name
+    git remote set-url origin https://github.com/mean-april-2017/simon-your-name.git
     git push origin master
     ```
 1. Run `npm install`
