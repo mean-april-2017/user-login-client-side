@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="simonApp">
+<html lang="en" ng-app="gitHubApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="/angular.js" type="text/javascript"></script>
     <script src="/app.js" type="text/javascript"></script>
-    <title>Simon</title>
+    <title>MEAN GitHub Org</title>
 </head>
 <body>
+    <div ng-controller="mainController">
 
-    <h1>Simon</h1>
+        <h1>MEAN GitHub Org</h1>
+        <ul>
+            <li ng-repeat="member in members">{{ member.login }}</li>
+        </ul>
 
+    </div>
 </body>
 </html>
