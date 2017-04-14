@@ -9,7 +9,9 @@
 1. Run `npm install`
 1. Run `npm start` (If you are on windows, use `node server.js` and open localhost:3000 in browser)
 
-[Imgur](http://i.imgur.com/ppbppJf.png)
+Example:
+
+<img src="http://i.imgur.com/ppbppJf.png">
 
 Look to [The GitHub API Docs](https://developer.github.com/v3/) to find all information about our org.
 
