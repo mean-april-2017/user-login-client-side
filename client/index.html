@@ -1,21 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="gitHubApp">
+<html lang="en" ng-app="userLoginApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="/angular.js" type="text/javascript"></script>
+    <script src="/angular-route.js" type="text/javascript"></script>
     <script src="/app.js" type="text/javascript"></script>
-    <title>MEAN GitHub Org</title>
+    <title>User Login Site</title>
 </head>
 <body>
-    <div ng-controller="mainController">
-
-        <h1>MEAN GitHub Org</h1>
-        <ul>
-            <li ng-repeat="member in members">{{ member.login }}</li>
-        </ul>
-
-    </div>
+    <h1>User Login Site</h1>
+    <div ng-view=""></div>
 </body>
 </html>
